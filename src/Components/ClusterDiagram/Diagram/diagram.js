@@ -16,6 +16,7 @@ function chartData(props) {
         id: '0',
         data: { label: curItr.topic, type: 'topic' },
         position: curItr.position,
+        style: { 'border-radius': '30px' },
       },
     ];
     curItr.ideas.map((k, index) => {
